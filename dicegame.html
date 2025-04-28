@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="dicgame.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>🎲 Dice Game 🎲</h1>
+        <div class="players">
+            <div class="player" id="player1">
+                <h2>Player 1</h2>
+                <p>Score: <span id="score1">0</span></p>
+            </div>
+            <div class="player" id="player2">
+                <h2>Player 2</h2>
+                <p>Score: <span id="score2">0</span></p>
+            </div>
+        </div>
+        <div class="dice" id="dice">
+            <div class="face front">1</div>
+            <div class="face back">2</div>
+            <div class="face top">3</div>
+            <div class="face bottom">4</div>
+            <div class="face right">5</div>
+            <div class="face left">6</div>
+        </div>
+        <p id="message">Player 1's Turn</p>
+        <button id="rollBtn">🎲 Roll Dice</button>
+        <button id="resetBtn">🔄 Reset Game</button>
+    </div>
+</body>
+<script src="dicegame.js"></script>
+</html>
+        
